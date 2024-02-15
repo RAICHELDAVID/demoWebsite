@@ -173,7 +173,54 @@ padding-left:0px;
   border-radius: 50%;
   display: inline-block;
 }
+.priceDetails,.deliveryDetails{
+margin-left:15px;
 
+}
+.priceDetails span{
+font-family: "Mulish", sans-serif;
+    padding-bottom: 3px;
+}
+.priceDetails span:nth-child(2),span:nth-child(3){
+    font-size: small;
+}
+.priceDetails span:last-child{
+    font-size: x-small;
+}
+.sizeOS{
+border:1px solid black;
+
+
+}
+.sizeOS span:last-child{
+padding-top:10px;
+}
+.sizeOS div:first-child{
+margin-left:5px;
+}
+.sizeText{
+font-size:12px;
+font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
+.sizeChart{
+font-size:10px;
+font-family: "Mulish", sans-serif;
+}
+.borderLine{
+border:4px solid #F0F8FF;
+}
+.deliveryDetails span{
+font-family: "Mulish", sans-serif;
+font-weight: 600;
+}
+.deliveryDetails span:last-child{
+    font-size: x-small;
+    font-family: 'Mulish';
+    font-weight: 600;
+    text-decoration: unset;
+    text-decoration: underline;
+}
 @media (max-width: 480px) and (min-width:379px) {
   .image {
     margin-left: 4rem;
@@ -181,6 +228,7 @@ padding-left:0px;
 .heartIcon{
     margin-left: 6rem;
 }
+
 }
 @media (max-width: 380px) and (min-width:319px) {
   .image {

@@ -1,0 +1,642 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+.mainHeader {
+	height: 90px;
+	width: 100%;
+	border-top: 3px solid #2c4152;
+	background-color: #fff;
+	border-bottom: 1px solid #e0e0e0;
+	display: flex;
+
+	height: auto;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .2);
+	padding: 0 80px;
+}
+
+
+.mainHeader .header .topRightLink {
+	display: flex;
+	float: right;
+
+}
+
+.mainHeader .header .topRightLink .signIn,
+.customerCare {
+	padding: 10px 10px;
+	font-size: 12px;
+	letter-spacing: 1.6px;
+	color: #2c4152;
+	font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.mainHeader .header .topRightLink .visitAjio {
+	background-color: #000;
+	color: white;
+	font-size: 12px;
+	padding: 11px;
+	font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.mainHeader .header .topLogoSection {
+	display: inline-block;
+	margin-top: 24px;
+	float: left;
+	width: 10%;
+}
+
+.topCenterSection {
+	width: 90%;
+	float: left;
+}
+
+.topCenterSection .topCenterNavigation {
+	float: left;
+	margin-top: 10px;
+	margin-right: 6px;
+	margin-left: 118px;
+	text-align: right;
+
+}
+
+.topCenterSection .topCenterNavigation span {
+	cursor: pointer;
+	font-size: 16px;
+	color: #333333;
+	letter-spacing: 0.8px;
+	padding: 0 16px;
+
+}
+
+.topCenterSection .topCenterRight {
+	display: flex;
+	width: 362px;
+	float: right;
+
+}
+
+.topCenterSection .topCenterRight input {
+	width: 112%;
+	float: left;
+	height: 34px;
+	padding: 0px 20px 0px 12px;
+	border-radius: 20px;
+	background-color: #FFFDED;
+	border: 1px solid black;
+}
+
+form {
+	padding-top: 4px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.wishListIcon img {
+	padding-top: 4px;
+}
+
+.wishListIcon {
+	margin-left: 40px;
+}
+
+.cartIcon {
+	margin-left: 12px;
+}
+
+.bodySection div img {
+	width: -webkit-fill-available;
+}
+
+.indicators {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.line {
+	width: 40px;
+	height: 3px;
+	background: #ccc;
+
+	margin: 0 10px;
+}
+
+.imageCardOne,
+.imageCardTwo {
+	display: flex;
+	width: 100%;
+	position: relative;
+}
+
+.imageCardOne div {
+	width: 33%;
+	display: block;
+}
+
+.imageCardOne button {
+	position: absolute;
+	top: 50%;
+	left: 96%;
+	transform: translate(-50%, -50%);
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	border: none;
+}
+
+.imageCardOne button span {
+	color: grey;
+	font-size: 19px;
+}
+
+.imageCardTwo div {
+	width: 25%;
+	display: block;
+}
+
+.imageCardTwo button {
+	position: absolute;
+	top: 50%;
+	left: 97%;
+	transform: translate(-50%, -50%);
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	border: none;
+}
+
+.imageCardThree,
+.imageCardFour,
+.imageCardFive {
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+}
+
+.imageCardThree div,
+.imageCardFour div,
+.imageCardFive div {
+	width: 25%;
+	overflow: hidden;
+	display: flex;
+}
+
+.thirteenImage {
+	margin-top: 1px;
+}
+
+.mainFooter {
+	width: 100%;
+	clear: both;
+}
+
+.footerListItem {
+	display: flex;
+	flex-direction: column;
+}
+
+.footerTop {
+
+	font-size: 14px;
+	background-color: #fafafa;
+	display: inline-block;
+	width: 100%;
+}
+
+.footerInlineList {
+	display: flex;
+}
+
+.footerTop .footerInlineList {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px 0;
+	background-color: #fafafa;
+}
+
+.footerTop .footerInlineList .footerListItem {
+
+	width: 33%;
+	text-align: center;
+}
+
+.footerListItem span:last-child {
+	padding-top: 17px;
+
+}
+
+.footerListItem span:last-child strong {
+	font-family: lora;
+	color: #333333;
+}
+
+.footerBottom {
+	background-color: #2c4152;
+	color: #fff;
+	width: 100%;
+	display: inline-block;
+	color: #ccc;
+	font-family: SourceSansPro;
+
+}
+
+.footerBody {
+	background-color: #2c4152;
+	padding: 40px 0;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.footerBodyInner {
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.footerSupport {
+	display: inline-block;
+	text-align: left;
+	width: 24%;
+	vertical-align: top;
+}
+
+.footerSupport .heading {
+	margin-bottom: 20px;
+	font-size: 14px;
+
+
+}
+
+.footerSupport .heading strong {
+	font-family: Lora;
+}
+
+.footerSupport .footerItems a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #ccc;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 8px;
+
+}
+
+.bodyLastSection {
+	width: 100%;
+	display: inline-block;
+}
+
+.footerPayment {
+	float: left;
+}
+
+.footerPayment .paymentText {
+	margin-bottom: 20px;
+	font-size: 14px;
+
+
+}
+
+.paymentText strong {
+	font-family: Lora;
+}
+
+.paymentMethodList div {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.footerSecureSystem {
+	float: right;
+}
+
+.secureText {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.secureText strong {
+	font-family: Lora;
+}
+
+.mainBodyWatch {
+	margin: 10px 74.50px 0px;
+}
+
+.breadCrumbsSection {
+	padding-top: 10px;
+	letter-spacing: 1px;
+	color: #939393;
+	font-size: 11px;
+	float: left;
+	margin-bottom: 20px;
+	display: block;
+	width: 100%;
+}
+
+.breadCrumbsListItems {
+	list-style-type: none;
+	float: left;
+	margin-right: 7px;
+	cursor: pointer;
+}
+
+.breadCrumbsListItems a {
+	text-decoration: none;
+	color: #6D6D6D;
+	letter-spacing: 1px;
+	font-size: 11px;
+}
+
+.secondBodySection {
+	float: left;
+	width: 100%;
+	bottom: 0;
+
+}
+
+.secondBodySection .facets {
+	width: 20%;
+	min-height: 1000px;
+	float: left;
+	padding: 10px;
+}
+
+.facets .facetsHead {
+	text-transform: capitalize;
+	font-size: 18px;
+	margin: 5px 4px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.facetsHead strong {
+	font-family: lora;
+	color: #333333;
+}
+
+.facets .expandLess {
+	float: right;
+}
+
+.genderText,
+.categoryText {
+	display: flex;
+}
+
+.categoryText {
+	margin-top: 28px;
+}
+
+.genderText span:last-child,
+.categoryText span:last-child,
+.priceText span:last-child {
+	font-size: 16px;
+	margin: 2px;
+	color: #333;
+	cursor: pointer;
+}
+
+.facetsBodyList {
+	margin-top: 6px;
+}
+
+.facetsBodyListItems {
+	display: flex;
+	margin-bottom: 8px;
+}
+
+.facetsBodyListItems .square {
+	margin-left: 23px;
+	margin-right: 5px;
+	left: 0px;
+	color: #333;
+	font-size: 20px;
+	top: 3px;
+	font-weight: 400;
+}
+
+.facetsBodyListItems span:last-child {
+	font-size: 14px;
+	margin: 2px;
+	color: #333;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+
+.priceText {
+	display: flex;
+	margin-top: 22px;
+}
+
+.priceText .material-symbols-outlined {
+	font-size: 18px;
+	padding-top: 4px;
+}
+
+.facetsBottomHeadLine strong {
+	font-family: lora;
+	font-size: 18px;
+}
+
+.facetsBottomParagraph {
+	font-size: 14px;
+	color: #6d6d6d;
+}
+
+.facetsBottom p {
+	text-align: center;
+	font-size: 14px;
+	color: #176D93;
+	padding-top: 10px;
+}
+
+.watchProductHeadLine {
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.watchProductHeadLine h1 {
+	font-family: Lora;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: .1px;
+	color: #333;
+	text-transform: capitalize;
+}
+
+.watchProducts {
+	padding: 0 5px;
+}
+
+.watchProductFirstLine {
+	height: 60px;
+	border-top: 1px solid #e5e3e3;
+	border-bottom: 1px solid #e5e3e3;
+	background-color: #fff;
+	margin-bottom: 20px;
+	margin-top: 0;
+
+}
+
+.watchProducts .watchProductFirstLine,
+.itemsFound {
+	text-align: left;
+	color: #333;
+	font-weight: 700;
+	font-style: normal;
+	padding: 0 5px;
+	bottom: 3px;
+	font-size: 14px;
+	justify-content: space-between;
+}
+
+.grid span {
+	margin-right: 10px;
+	font-weight: 400;
+	color: #6d6d6d;
+	font-size: 14px;
+}
+
+.watchInRow .watchImage {
+	width: 303px;
+	height: 378px;
+}
+
+.watchInRow .watchContent {
+	width: 303px;
+	height: 144px;
+}
+
+.watchType {
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 0px;
+
+	font-family: lora;
+	color: black;
+}
+
+.watchInRow .watchContent img {
+	padding-left: 97px;
+}
+
+.priceArea {
+	text-align: center;
+}
+
+.priceArea del {
+	font-size: 12px;
+	padding-left: 4px;
+	padding-right: 3px;
+	color: #6d6d6d;
+}
+
+.watchName {
+	font-size: 13px;
+	color: #866528;
+	font-weight: 600;
+}
+
+.priceArea span {
+	font-size: 12px;
+	color: #866528;
+}
+
+.watchInRow div:first-child {
+	margin-right: 15px;
+}
+
+.firstNav span {
+	font-weight: 600;
+	color: #121212;
+	font-size: 14px;
+	margin: 0 5px;
+
+}
+
+#visitAjio {
+	background-color: #304050;
+	color: white;
+	padding: 5px;
+
+	font-size: 16px;
+
+}
+
+.ajioWatchInput {
+	border-color: black;
+	max-width: 49%;
+	height: 34px;
+	border-radius: 0px;
+}
+
+.ajioWatchButton {
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 0px;
+	padding: 2px 2px;
+	height: 34px;
+}
+
+.ajioWatchButton span {
+	color: white;
+}
+
+.subHeader {
+	background-color: black;
+	height: 55px;
+}
+
+.subHeaderContent div {
+	color: #E0E0E0;
+	font-size: 16px;
+	margin-right: 10px;
+
+}
+.mainWatchDisplay{
+margin:0 95px;
+}
+.mainWatchDisplay span{
+font-size:13px;
+margin:0 7px 0 0;
+}
+.productImageGallery{
+margin-top:25px;
+
+}
+.productImageGallery img{
+    border: 1px solid #c2c2c2;
+    width: 63px;
+    height: 66px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.share{
+float:right;
+    border: 1px solid gray;
+    border-radius: 13px;
+    padding: 3px;
+    font-size: 17px;
+    color: gray;
+}
+
+    
